@@ -8,10 +8,25 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="480dp"
-        android:layout_height="756dp"
-        android:text="Button"
+        android:layout_width="175dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginLeft="108dp"
+        android:text="Background and Sound"
         app:backgroundTint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_editor_absoluteX="-20dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652" />
+
+    <Button
+        android:id="@+id/buttonGPIO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="68dp"
+        android:text="GPIO and Sound"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
